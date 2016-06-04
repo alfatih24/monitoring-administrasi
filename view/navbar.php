@@ -1,0 +1,42 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./"><span class="glyphicon glyphicon-calendar"></span> Jurnal Dosen FKI</a>
+    </div>
+    <!-- <p class="navbar-text visible-lg">SOLOCUP 2016</p> -->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li id="nav-ambilj"><a href="default.php?p=jurnal/ambiljurnal">Ambil</a></li>
+        <li id="nav-kembalikanj"><a href="default.php?p=jurnal/kembalikanjurnal">Kembalikan<span class="label label-danger">0</span></a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li id="nav-home"><a href="default.php?p=view/home"><span class="glyphicon glyphicon-home"></span> </a></li>
+        <li id="nav-manajemen" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manajemen <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Manajemen Peralatan</a></li>
+            <li><a href="#">Manajemen Dosen</a></li>
+          </ul>
+        </li>
+<!--         <li id="nav-bantuan" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bantuan <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Tentang Sistem</a></li>
+            <li><a href="#"> Laporkan Kesalahan Sistem</a></li>
+            <li><a href="#"> Kontak Pengembang</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
