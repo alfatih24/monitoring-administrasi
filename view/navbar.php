@@ -23,7 +23,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li id="nav-ambilj"><a href="default.php?p=jurnal/ambiljurnal">Ambil</a></li>
+        <li id="nav-ambilj"><a href="default.php">Ambil</a></li>
         <li id="nav-kembalikanj"><a title="<?php echo $jml_belum; ?> dosen belum mengembalikan jurnal" href="default.php?p=jurnal/kembalikanjurnal">Kembalikan <span class="label label-danger"><?php echo $jml_belum; ?></span></a></li>
       </ul>
 

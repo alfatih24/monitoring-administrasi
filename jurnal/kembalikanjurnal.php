@@ -4,7 +4,7 @@ include_once "lib/config.php";
 <div class="container margin-top">
 	<div class="row row-centered"> 
 		<div class="container">		
-		<h2 class="page-header">Kembalikan jurnal dari</h2>
+		<h2 class="page-header">Dosen yang mengambil jurnal</h2>
         <div class="col-md-12">
             <table id="kembalikanjurnal" class="table table-hover" cellspacing="0" width="100%">
                 <thead>

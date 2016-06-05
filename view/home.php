@@ -13,7 +13,7 @@
 <div class="container">
 	<div class="row"> 
 		<div class="container">
-		<form method="post" class="form-horizontal margin-top" enctype="multipart/form-data" action="default.php?p=jurnal/ambiljurnal">
+		<form method="post" class="form-horizontal" enctype="multipart/form-data" action="default.php?p=jurnal/ambiljurnal">
 			<h2><label for="inputCariDosen">Cari Nama Dosen</label></h2>
 			<div class="input-group input-group-lg">
 				<span class="input-group-btn">
