@@ -1,3 +1,11 @@
+<?php 
+  // Hitung jurnal yang belum dikembalikan
+  $belum_kembali    = $db->custom_query("SELECT id_log FROM log_jurnal WHERE waktu_kembali = '0000-00-00 00:00:00'");
+  $jml_belum        = 0;
+  foreach ($belum_kembali as $belum) {
+    $jml_belum += 1;
+  }
+?>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -16,7 +24,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li id="nav-ambilj"><a href="default.php?p=jurnal/ambiljurnal">Ambil</a></li>
-        <li id="nav-kembalikanj"><a href="default.php?p=jurnal/kembalikanjurnal">Kembalikan<span class="label label-danger">0</span></a></li>
+        <li id="nav-kembalikanj"><a title="<?php echo $jml_belum; ?> dosen belum mengembalikan jurnal" href="default.php?p=jurnal/kembalikanjurnal">Kembalikan <span class="label label-danger"><?php echo $jml_belum; ?></span></a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

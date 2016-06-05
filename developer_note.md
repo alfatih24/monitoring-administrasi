@@ -7,3 +7,5 @@
 - [error handling] if mysql_error() LIKE 'Duplicate Entry' then - Kode / Nama sudah ada dalam database. Gunakan kode / nama lain
 
 - [design] JQuery onChange when QR Code input to fill 'Nama Dosen'
+
+- [unnecessary] Delete later, /lib/redips , datetimepicker, 

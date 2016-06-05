@@ -12,13 +12,30 @@ body {
   padding-top: 50px;
 }
 
-.thumb h1 a span {
+.thumb h1 button span {
   font-size: 10em;
   padding: 40px;
 }
 
 .margin-top {
   margin-top: 60px;
+}
+
+.autocomplete-input {
+  margin-top:5px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
 
 #footer {

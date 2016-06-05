@@ -3,10 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login | Sistem Monitoring Jurnal Dosen | FKI UMS</title>
-	<link rel="stylesheet" href="../../bs3_dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../assets/custom.css">
-	<script type="text/javascript" src="../../bs3_dist/js/jquery.js"></script>
-	<script type="text/javascript" src="../../bs3_dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/custom.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../assets/js/jquery-1.12.0.min.js"></script>
+    <!-- BS-3 JS -->
+    <script src="../assets/js/bootstrap.min.js"></script>
 	<style>
 		body 
 		{
