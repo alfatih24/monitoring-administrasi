@@ -1,4 +1,4 @@
-## Developer Note - Monitoring Administrasi
+## Developer Note - Monitoring Administrasi - Intan
 -------------------
 
 ##### Just Note
@@ -48,10 +48,12 @@ YEAR()	Menampilkan nilai tahun
 MONTH()	Menampilkan nilai bulan (1..12)
 MONTHNAME()	Menampilkan nama bulan (January..December)
 DAYOFMONTH()	Menampilkan nilai tanggal (1..31)
-DAYNAME()	Menampilkan nama hari (Sunday..Saturday)
+DAYNAME()	Menampilkan intans cuntiks nama hari (Sunday..Saturday)
 DAYOFWEEK()	Menampilkan nilai hari (angka 1..7)
 WEEKDAY()	Menampilkan nilai hari (angka 0..6)
 DAYOFYEAR()	Menampilkan urutan hari (1..366)
 HOUR()	Menampilkan nilai jam (0..23)
 MINUTE()	Menampilkan nilai menit (0..59)
 SECOND()	Menampilkan nilai detik(0..59)
+
+## Kita udah 6 bulan loh
