@@ -1,0 +1,56 @@
+<?php
+include_once "lib/config.php";
+?>
+<div class="container">
+	<div class="row row-centered"> 
+		<div class="container">		
+		<h2 class="page-header">Peralatan yang dapat dipinjam dosen</h2>
+        <div class="col-md-12">
+            <table id="listAlat" class="table table-hover" cellspacing="0" width="100%">
+                <thead>
+                  <th>ID Alat</th>
+                  <th>Nama Alat</th>
+                  <th>Aksi</th>
+                </thead>
+               <tbody>
+               </tbody>
+            </table>
+        </div> <!-- col-md-12 -->		
+		</div> <!-- .container in -->
+	</div> <!-- .row -->
+</div> <!-- .container -->
+
+
+<script type="text/javascript">
+    // <!-- Indicator Page -->
+	$("#nav-manajemen").addClass("active");
+
+	// Data table
+    $("#listAlat").dataTable
+    ({
+           'bProcessing': true,
+            'bServerSide': true,
+
+            //disable order dan searching pada tombol aksi
+                 "columnDefs": [ {
+              "targets": [2],
+              "orderable": false,
+              "searchable": false
+
+            } ],
+            "ajax":{
+              url :"data-list_alat.php",              
+            type: "post",  // method  , by default get
+            //bisa kirim data ke server
+            /*data: function ( d ) {
+
+                      d.jurusan = "3223";
+                  },*/
+          error: function (xhr, error, thrown) {
+            console.log(xhr);
+
+            }
+          },
+
+    });	
+</script>

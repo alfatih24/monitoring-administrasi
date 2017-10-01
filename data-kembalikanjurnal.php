@@ -41,7 +41,7 @@ $columns = array(
 		//bisa juga pake logic misal jika value tertentu maka outputnya
 
 		//kita bisa buat tombol untuk keperluan edit, delete, dll,
-		$kembalikan = "default.php?p=jurnal/kembalikanjurnal__&id_log=".$value->id_log;
+		$kembalikan = "default.php?p=modul/jurnal/kembalikanjurnal__&id_log=".$value->id_log;
 		$crud_uri = array(
 							"kembali" 		=> $kembalikan,
 						);

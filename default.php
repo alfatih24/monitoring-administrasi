@@ -30,19 +30,24 @@
 <body>
 	<?php 		
 		require_once 'lib/config.php';
-		include 'view/navbar.php';
-
+		include 'modul/view/navbar.php';
+	?>
+	<div align="center" class="container-fluid bg-primary">
+		<p class="lead text-inverse" style="padding-top: 10px; margin-bottom: 0px;"><marquee direction="left">Pengumuman penting disini Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit aut veniam excepturi temporibus inventore corporis dicta sit culpa veritatis placeat, earum dolorum asperiores delectus dolore quisquam voluptatibus at magnam.</marquee>
+		</p>
+	</div> <!-- .container-fluid -->
+	<?php
 		// Konten
 		$page = $_GET[p];
 		if(empty($page))
 		{
-			include 'view/home.php';
+			include 'modul/view/home.php';
 		}
 		else
 		{
 			include $page.".php";
 		}
 	?>
-	<?php include 'view/footer.php'; ?>
+	<?php include 'modul/view/footer.php'; ?>
 </body>
 </html>
